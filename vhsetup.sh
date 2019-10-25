@@ -14,8 +14,7 @@ VHDIR="${LSDIR}/conf/vhosts"
 EMAIL='localhost'
 WWW='FALSE'
 BOTCRON='/etc/cron.d/certbot'
-PLUGINLIST="litespeed-cache.zip all-in-one-seo-pack.zip all-in-one-wp-migration.zip \
-google-analytics-for-wordpress.zip jetpack.zip wp-mail-smtp.zip"
+PLUGINLIST="litespeed-cache.zip wp-mail-smtp.zip"
 CKREG="^[a-z0-9!#\$%&'*+/=?^_\`{|}~-]+(\.[a-z0-9!#$%&'*+/=?^_\`{|}~-]+)*\
 @([a-z0-9]([a-z0-9-]*[a-z0-9])?\.)+[a-z0-9]([a-z0-9-]*[a-z0-9])?\$"
 THEME='twentynineteen'
