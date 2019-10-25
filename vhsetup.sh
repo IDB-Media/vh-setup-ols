@@ -17,7 +17,7 @@ BOTCRON='/etc/cron.d/certbot'
 PLUGINLIST="litespeed-cache.zip wp-mail-smtp.zip"
 CKREG="^[a-z0-9!#\$%&'*+/=?^_\`{|}~-]+(\.[a-z0-9!#$%&'*+/=?^_\`{|}~-]+)*\
 @([a-z0-9]([a-z0-9-]*[a-z0-9])?\.)+[a-z0-9]([a-z0-9-]*[a-z0-9])?\$"
-THEME='twentynineteen'
+THEME='astra'
 PHPVER=lsphp73
 USER='www-data'
 GROUP='www-data'
