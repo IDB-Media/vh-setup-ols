@@ -264,7 +264,7 @@ EOF
         change_owner
     fi
     if [ ! -f "${VHDIR}/${MY_DOMAIN}/vhconf.conf" ]; then
-        cat > ${VHDIR}/${MY_DOMAIN}/vhconf.conf << EOF
+        cat >> ${VHDIR}/${MY_DOMAIN}/vhconf.conf << EOF
 docRoot                   \$VH_ROOT
 vhDomain                  \$VH_DOMAIN
 vhAliases                 www.$VH_DOMAIN
